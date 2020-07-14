@@ -1,3 +1,7 @@
 from django.shortcuts import render
+import numba
 
-# Create your views here.
+
+
+def main_app(request):
+    return render(request, 'main_app.html')
